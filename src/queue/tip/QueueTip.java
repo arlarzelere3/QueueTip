@@ -14,7 +14,6 @@ import java.util.LinkedHashSet;
 public class QueueTip {
 
     public enum charType {
-
         LETTER, NUMBER
     };
     private char[] values = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
