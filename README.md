@@ -21,14 +21,25 @@ queue, ironically).  If no arguments are passed, the original queue should outpu
 It is also safe to throw an error if a letter that doesn’t 
 exist in the queue is passed, and also if a slot number is passed that is 
 larger than the size of the queue.  
+
 Example input:
+
 Myprog 3 A B 5 
+
 Expected output:
+
 C D E A F B G H
+
 Example input:
+
 Myprog A H 1 6 7 E
+
 Expected output:
+
 B A C D F G H E
+
 Bad inputs:
+
 Myprog A 1 A 2 
+
 Myprog A 1 B 3 C
