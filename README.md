@@ -3,7 +3,9 @@ Queue Tip Problem
 (This is not my puzzle, if you know who created it please email me at alarzelere@gmail.com and I will attribute it thusly)
 
 Imagine a queue that looks like the following:
+
 A B C D E F G H
+
 A is in slot 0 of the queue, and H is in slot 7.  The alphabet gods have 
 now told you to defy the order of this queue on-demand.  Your task is 
 to write a program that accepts pairs of values, one being a slot 
